@@ -344,6 +344,9 @@ section.normal p strong,
 .codetabs-body .tab pre {
   border: 1px solid #ddd;
 }
+.user-widget__user_name {
+  display: none;
+}
 /* Responsive Fixes */
 @media (min-width: 600px) {
   .site-name {
@@ -378,6 +381,9 @@ section.normal p strong,
   }
   #platform-bar .row {
     padding: 0 50px;
+  }
+  .user-widget__user_name {
+    display: inline-block;
   }
 }
 @media (min-width: 1240px) {
